@@ -1,3 +1,5 @@
+#include <stdio.h> 
+#include <stdlib.h> 
 
 char** read_lines_from_file(const char* filename, int* out_line_count) {
     FILE* file = fopen(filename, "r");
