@@ -9,7 +9,7 @@ char** read_lines_from_file(const char* filename, int* out_line_count) {
         exit(EXIT_FAILURE);
     }
 
-    char** lines = malloc(sizeof(char*) * 1000); // Up to 200 lines
+    char** lines = malloc(sizeof(char*) * 1000);
     char buffer[256];
     int count = 0;
 
